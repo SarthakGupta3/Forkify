@@ -1,0 +1,203 @@
+html{
+    min-height:100%;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+   background-image:linear-gradient(to right bottom, #02aab0, #00cdac);
+   background-repeat:no-repeat;
+   background-size:cover;
+   min-height: 100%;
+}
+
+#container{
+    width:90%;
+    background-color:#F9F5F3;
+    margin:4rem auto;
+    padding-top:20px;
+    border-radius:8px;
+    min-height: 20px;
+}
+
+#top-bar{
+    display: flex;
+    padding-bottom:1rem;
+}
+#top-bar-1{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+#logo{
+    height:2.8rem;
+}
+
+#top-bar-2{
+    display: flex;
+    position:relative;
+    flex-grow: 2;
+    
+}
+#top-bar-3{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+#recipe-search{
+    width:70%;
+    border-radius:1rem;
+    background-color:white;
+    padding:0.7rem;
+    border:none;
+}
+
+#data{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+}
+
+#results{
+    min-height:60rem;
+    background-color: white;
+    width:25%;
+}
+
+#item{
+    min-height: 60rem;
+    background-color:#F9F5F3;
+    width:50%;
+    border-top:1px solid white;
+}
+
+#cart{
+    min-height:60rem;
+    background-color: white;
+    width:25%;
+}
+
+#search-click{
+    border:none;
+    border-radius:1rem;
+    background-image:linear-gradient(to right bottom,  #FBDB89, #F48982);
+    width:5rem;
+    padding:0.87rem;
+    position: absolute;
+    left:65%;
+}
+
+#top-bar-2:focus-within {
+    transform: translateY(-2px);
+    box-shadow: 0 0.7rem 3rem #F9F5F3; 
+}
+
+.icon{
+    height:1rem;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:5px;
+}
+a{
+    display: flex;
+    flex-direction:row;
+    text-decoration: none;
+    color:inherit;
+}
+
+figure,h5,p{
+    margin:0;
+}
+
+figure{
+    width:5rem;
+    height:5rem;
+    padding:10px;
+}
+
+.icon{
+   width:4rem;
+   height:4rem;
+   border-radius:50px;
+}
+
+
+.item_publisher{
+    font-size:0.8rem;
+}
+
+.item_title{
+    font-size:1rem;
+    color:#FF2F2F;
+}
+
+
+
+.list_item{
+    margin:5px;
+    border-radius:10px;
+}
+
+.list_item:hover{
+    transform: translateY(-4px);
+    background-color:lightgrey;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+}
+
+.title,.publisher{
+    padding:8px;
+}
+
+#spin,#Itemspin{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:10px;
+}
+
+#loader{
+    width:2rem;
+    height:2rem;
+}
+#Itemloader{
+    width:5rem;
+    height: 5rem;
+}
+
+#ingredients{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ingredient_item{
+    display: flex;
+    width:40%;
+    margin:5px;
+}
+
+#item_image{
+    width:100%;
+    height: 20rem;
+    border-radius:10px;
+    max-width:100%;
+    max-height:100%;
+}
+
+#item_title,#item_url,#item_ingred{
+    width:100%;
+    height:4rem;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
